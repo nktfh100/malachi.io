@@ -1,0 +1,55 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.header__img {
+	border-radius: 50%;
+	width: 15rem;
+	height: 15rem;
+}
+
+.header__name {
+	font-size: 2.8rem;
+}
+
+.header__title {
+	font-size: 1.6rem;
+}
+
+.header__buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.6rem;
+	margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+	.header {
+		margin-top: 3rem;
+	}
+
+	.header__img {
+		width: 11rem;
+		height: 11rem;
+	}
+
+	.header__name {
+		font-size: 2.2rem;
+	}
+
+	.header__title {
+		font-size: 1.3rem;
+	}
+
+	.header__buttons {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0.4rem;
+	}
+}

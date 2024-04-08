@@ -1,0 +1,32 @@
+.projects {
+	margin-top: 3rem;
+	text-align: center;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.projects__title {
+	font-size: 3.2rem;
+}
+
+.projects__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+	margin-top: 2rem;
+}
+
+.projects__divider {
+	width: 85%;
+	height: 0.1rem;
+	border-radius: 0.1rem;
+	background-color: #3b3b3b;
+	max-width: 50rem;
+}
+
+@media screen and (max-width: 900px) {
+	.projects__title {
+		font-size: 2.8rem;
+	}
+}
